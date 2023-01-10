@@ -171,6 +171,7 @@ std::vector<page *> read_the_story(std::string directory) {
 
 //print the pages
 void print_pages(std::vector<page *> pages) {
+  std::cout<<"print!!!!"<<std::endl;
   for (size_t i = 0; i < pages.size(); i++) {
     std::cout << "Page " << i << std::endl;
     std::cout << "==========" << std::endl;

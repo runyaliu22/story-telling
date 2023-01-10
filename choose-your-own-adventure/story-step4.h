@@ -78,7 +78,7 @@ std::vector<page *> read_the_story(std::string directory) {
   std::vector<page *> pages;
 
   //directory of story.txt file
-  std::string story_directory = directory + "/story.txt";
+  std::string story_directory = directory + "/story1.txt";
 
   std::ifstream infile;
 
