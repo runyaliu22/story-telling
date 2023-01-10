@@ -11,7 +11,7 @@ int main(int argc, char ** argv) {
   }
 
   //read the story(page creation)
-  std::vector<page *> pages = read_the_story(argv[1]);  //what exactly happens?
+  std::vector<page *> pages = read_the_story(argv[1]); 
 
   //print pages
   print_pages(pages);
